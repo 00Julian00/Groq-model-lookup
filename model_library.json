@@ -1,0 +1,130 @@
+{
+    "performance_high": {
+        "llama-3.2-90b-text-preview": {
+            "context_window_size": 128000,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 7000,
+            "max_tokens_per_minute": 7000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        },
+        "llama-3.2-90b-vision-preview": {
+            "context_window_size": 128000,
+            "max_requests_per_minute": 15,
+            "max_requests_per_day": 7000,
+            "max_tokens_per_minute": 7000,
+            "max_tokens_per_day": 500000,
+            "has_vision": true
+        },
+        "llama-3.1-70b-versatile": {
+            "context_window_size": 128000,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 14400,
+            "max_tokens_per_minute": 6000,
+            "max_tokens_per_day": 200000,
+            "has_vision": false
+        },
+        "llama3-70b-8192": {
+            "context_window_size": 8192,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 14400,
+            "max_tokens_per_minute": 6000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        }
+    },
+    "performance_medium": {
+        "llama-3.2-11b-text-preview": {
+            "context_window_size": 128000,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 7000,
+            "max_tokens_per_minute": 7000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        },
+        "llama-3.2-11b-vision-preview": {
+            "context_window_size": 128000,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 7000,
+            "max_tokens_per_minute": 7000,
+            "max_tokens_per_day": 500000,
+            "has_vision": true
+        },
+        "llama-3.1-8b-instant": {
+            "context_window_size": 128000,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 14400,
+            "max_tokens_per_minute": 20000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        },
+        "llama3-8b-8192": {
+            "context_window_size": 8192,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 14400,
+            "max_tokens_per_minute": 30000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        },
+        "mixtral-8x7b-32768": {
+            "context_window_size": 32768,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 14400,
+            "max_tokens_per_minute": 5000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        },
+        "gemma2-9b-it": {
+            "context_window_size": 8192,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 14400,
+            "max_tokens_per_minute": 15000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        },
+        "gemma-7b-it": {
+            "context_window_size": 8192,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 14400,
+            "max_tokens_per_minute": 15000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        }
+    },
+    "performance_low": {
+        "llama-3.2-3b-preview": {
+            "context_window_size": 128000,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 7000,
+            "max_tokens_per_minute": 7000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        },
+        "llama-3.2-1b-preview": {
+            "context_window_size": 128000,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 7000,
+            "max_tokens_per_minute": 7000,
+            "max_tokens_per_day": 500000,
+            "has_vision": true
+        }
+    },
+    "tool_use": {
+        "llama3-groq-70b-8192-tool-use-preview": {
+            "context_window_size": 8192,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 14400,
+            "max_tokens_per_minute": 15000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        },
+        "llama3-groq-8b-8192-tool-use-preview": {
+            "context_window_size": 8192,
+            "max_requests_per_minute": 30,
+            "max_requests_per_day": 14400,
+            "max_tokens_per_minute": 15000,
+            "max_tokens_per_day": 500000,
+            "has_vision": false
+        }
+    }
+}
